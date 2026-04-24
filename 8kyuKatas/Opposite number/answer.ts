@@ -10,3 +10,9 @@ export class Kata {
     return n * -1;
   }
 }
+
+// export class Kata {
+//   static opposite(n: number) {
+//     return -n;
+//   }
+// }
