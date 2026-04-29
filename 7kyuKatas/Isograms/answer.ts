@@ -3,7 +3,7 @@ Isogram adalah sebuah kata yang tidak memiliki perulangan huruf misalnya ibu -> 
 
 1. Ubah kata jadi semua huruf kecil/besar dulu untuk mengabaikan perbedaan huruf. string.toLowerCase().
 2. Buat karakter jadi array berisi masing masing huruf. string.split(''). -> halo -> ['h', 'a', 'l', 'o'].
-3. Cek apakah ada duplikat array dengan fungsi Set, new.Set(string).size bandingkan dengan panjang array. Soalnya Set akan menghasilkan output tanpa duplikat data.
+3. Cek apakah ada duplikat array dengan fungsi Set, new.Set(string).size bandingkan dengan panjang array. Soalnya Set akan menghasilkan output panjang data tanpa unique alias tanpa duplikat data.
 */
 
 // let isogram = "Dermatoglyphics";
